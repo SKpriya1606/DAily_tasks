@@ -25,3 +25,14 @@
 
 #Bootstrap chapter-5 - completed
       carousel,collapse,tooltips,popovers,modals,scrollspy
+#Angular
+      nodejs installation and introduction to angular
+      created an angular project
+ 
+*******************Day-5(May 14th 2021)*************************
+
+#Typescript
+      Learned about intoduction,variables,looping statements,access specifiers.
+#Angular
+      learned about app.components,executed an example
+      
