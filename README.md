@@ -1,16 +1,19 @@
 # DAily_tasks
 
 ********************DAY-1(MAY 8th 2021)**********************
+
 #JQUERY introductions
 #practice handson from jquery pdf
 
 
 *******************Day-2 (MAY 10th 2021)*****************
+
 #JQUery Handson (completed)
 #BOOTSTRAP chapter 2 -completed
 
 
 *******************Day-3 (May 11th 2021)***************
+
 #Bootstrap chapter -3-completed
       buttons, navbar, list_groups_badges, forms, input_groups, alerts_progress, tables-pagination, cards, media_object, jumbotron
   
