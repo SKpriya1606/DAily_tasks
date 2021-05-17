@@ -36,3 +36,9 @@
 #Angular
       learned about app.components,executed an example
       
+******************Day-6(May-15th 2021)**************************
+
+#Angular 
+      1.one way and two binding
+      2.Directives
+      
