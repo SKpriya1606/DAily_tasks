@@ -1,0 +1,24 @@
+
+<div class="container pt-2">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Age</th>
+                <th>Company</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let employee of employee">
+                <td>{{employee.id}}</td>
+                <td>{{employee.name}}</td>
+                <td>{{employee.address}}</td>
+                <td>{{employee.age}}</td>
+                <td>{{employee.company}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <button class="btn btn-success">Success</button>
+</div>
