@@ -1,0 +1,88 @@
+Template Driven Forms
+=====================
+1. Easy to Use
+2. Suitable for Simple scenarios
+3. These are similar to angularJs form
+4. Two way data binding using [(ngModel)]
+5. Minimal Component code.
+6. Unit testing is a challenge
+Reactive Forms:
+===============
+1. These are very flexible, but needs a lot of practice
+2. They can handle any complex scenarios
+3. Here no data binding is done
+4. More component code  and less HTML markup
+5. Handling events is very easy here
+6. We can add element dynamically
+7. Easy Unit testing
+   Hobbies 
+   ---------
+   --------- +
+   ----------
+   ----------
+   We have to add ReactiveFormsModule in the imports Array in app.module.ts file
+   Component communication:
+   =======================
+   1. @Input()
+          This decorator is used to share information from Parent Component to the child Component.
+		  Consider app.component.ts as the Parent component and add-employee.component.ts as the child component.
+		  It makes the class property as an input property and supplies configuration meta data. It declares data-bound input property , which angular automatically updates during the change detection.
+    @Output()
+      This decorator is used to emit the information from child component to the Parent component.
+       It is using event binding to bring the data from child to Parent.
+	   Here We will use EventEmitter to emit the data to the Parent.
+   2. Services
+   What is angular service?
+   ========================
+   In angular services are always Singleton Object(It is using Singleton design Pattern)which can get instantiated only once during the lifetime of the application.
+   Every angular service contains several methods that always maintains the data throughout the life of an application. It is a mechanism to share the responsibilities within one or multiple components.
+   Services are the best place where we can take data from other sources or write down some calculations. Even services can be shared among multiple components.
+   We have 2 steps to create a Service in Angular:
+   1. Create a Class with @Injectable decorator
+   2. Register the class with the provider or inject the Service using dependency injection   
+   CLI:
+   ng n s services/employee
+   HTTP{get, post, put, delete} services
+HttpClient Module:
+==================
+       Here we can create a complete platform for creating the client side mobile and desktop applications.
+	   So, here do not need to use external libraries for doing common operations like HTTP requests.
+	   Angular provides HttpClient module which allows developers to send HTTP requests and make API calls to remote servers to access the data.
+	   HttpClient module is available in @angular/common/http package.
+	   AJAX==> XMLHttpRequest,
+	   It removes a lot of complexities from the previous versions
+	   It has lot fo features:
+	   1. RxJS Observables 
+       2. Interceptors for requests and responses
+       3. Better error Handling
+       4. Support for testing	 
+How to configure HttpClient Module:
+-----------------------------------
+We need to include HttpClientModule in the imports array of app.module.ts
+To Get data from the Server : We will use JSON server 
+------------------------------------------------------
+Create Remote API server:
+-------------------------
+1. Install json server in the project using npm command:
+	$ npm install -g json-server
+2. create a JSON File which will act as a database for our server.
+    First create a Folder in the project 
+	  $ mkdir server
+	  $ cd server
+	  create a file employees.json file
+3. add the data in the JSON File
+4. $ cd server
+   $ json-server --watch employees.json
+   It will run the server on the port 3000(by default)
+   If you want different port number:
+   $ json-server --watch employees.json --port 8200
+ Angular Routers:
+ ================
+ Route & Paths
+ route is an object of Route that provides information about which component maps to a specific path.
+ A path is the fragment of a URL that determines where exactly the resource is located.
+ A collection of routes defines the router configuration which is an instance of Routes.
+ ng g m app-routing --module app --flat
+ add router outlet in the app.component.html
+ RouterOutlet is a built-in directive in angular in the @angular/router package
+ @CrossOrigin("*")

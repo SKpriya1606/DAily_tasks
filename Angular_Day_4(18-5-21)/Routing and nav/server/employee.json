@@ -1,0 +1,46 @@
+{
+  "employee": [
+    {
+      "id": 101,
+      "name": "Priyadharshini",
+      "address": "Hosur",
+      "age": 22,
+      "company": "Cognizant"
+    },
+    {
+      "id": 102,
+      "name": "Naveen",
+      "address": "Bangalore",
+      "age": 20,
+      "company": "Wipro"
+    },
+    {
+      "id": 103,
+      "name": "Aravinth",
+      "address": "coimbatore",
+      "age": 19,
+      "company": "TCS"
+    },
+    {
+      "id": 104,
+      "name": "Mounica",
+      "address": "Chennai",
+      "age": 23,
+      "company": "Accenture"
+    },
+    {
+      "id": 105,
+      "name": "sudhadevil",
+      "address": "vellore",
+      "age": 21,
+      "company": "L&T tech"
+    },
+    {
+      "id": "106",
+      "name": "Naveen",
+      "address": "Trichy",
+      "age": 23,
+      "company": "Titan"
+    }
+  ]
+}

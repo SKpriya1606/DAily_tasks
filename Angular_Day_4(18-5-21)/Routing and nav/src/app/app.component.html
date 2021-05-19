@@ -1,0 +1,31 @@
+<!--interpolartion === from model to view-->
+<div class="navbar navbar-extend-md fixed-top fixed-header">
+    <div class="container">
+    <nav>
+        <a routerLink="/">Home </a> |
+        <a routerLink="/add-employee">Add Employee</a>
+    </nav>
+</div>
+</div>
+<h2>{{ title }}</h2>
+    <hr>
+    <div class="container pt-5">
+        <router-outlet></router-outlet>
+    </div>
+<!--<h2>{{ name }}</h2>
+<hr>
+<div *ngFor="let employee of emp">
+<h2>Name : {{employee.name}}</h2>
+<h2>Salary : {{employee.salary}}</h2>
+<h2>Address: {{employee.address}}</h2><br>
+</div>-->
+<!--<app-add-employee></app-add-employee>
+<app-employee></app-employee>
+<app-data-binding></app-data-binding>
+<app-directives></app-directives>
+<h1 appCustomDirectives>Custom Directive</h1>
+<app-add-employee [countFromParent]="count" (countFromChild)="getFromChild($event)"></app-add-employee></div>
+<hr>
+<div class="container">
+    Count from Child:{{ count }}
+</div>-->
