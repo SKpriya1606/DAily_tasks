@@ -29,16 +29,27 @@
       nodejs installation and introduction to angular
       created an angular project
  
-*******************Day-5(May 14th 2021)*************************
+*********************Day-5(May 14th 2021)*************************
 
 #Typescript
       Learned about intoduction,variables,looping statements,access specifiers.
 #Angular
       learned about app.components,executed an example
       
-******************Day-6(May-15th 2021)**************************
+********************Day-6(May-15th 2021)**************************
 
 #Angular 
       1.one way and two binding
       2.Directives
+     
+*********************Day-7(May-17th 2021)*************************
+
+#Angular
+      1.Angular Forms
+      2.Services
       
+**********************Day-8(May-18th 2021)************************
+
+#Angular
+      1.Http Client
+      2.Routing and Navigation
