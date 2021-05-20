@@ -46,10 +46,22 @@
 
 #Angular
       1.Angular Forms
+             transferring the data from parent to child using @output and vise verse using @input
       2.Services
       
 **********************Day-8(May-18th 2021)************************
 
 #Angular
-      1.Http Client
+      1.HttpClient Module
+             creating the romote api server using json(acts as database) 
+             allows for http requests and make API calss to remote servers to access data
       2.Routing and Navigation
+            1.Gives information about whuch component maps to a specific path
+            2.to navigate from one page to another using route
+            
+************************Day-9(May-19th 2021)***********************
+
+#Angular
+      1.CRUD operations using route(Add employee,update and delete)
+      2.Connecting Spring restApi with Angular using CrossOrigin.
+            
