@@ -1,0 +1,53 @@
+
+<!--<div class="container pt-2">
+    <table class="table table-striped">
+    <tr>
+        <td>Id</td>
+        <td>UserName</td>
+        <td>password</td>
+        <td>Address</td>
+        <td>Phone</td>
+        <td>Action</td>
+    </tr>
+    <tr *ngFor="let user of user">
+        <td>{{user.id}}</td>
+        <td>{{user.username}}</td>
+        <td>{{user.password}}</td>
+        <td>{{user.address}}</td>
+        <td>{{user.phone}}</td>
+        <td><button class="btn btn-primary" (click)="updateUser(user)">Update</button>
+            <button class="btn btn-danger" (click)="deleteUser(user)">Delete</button>
+        </td>
+    </tr>
+</table>
+</div>-->
+<div class="container pt-2">
+    <table class="table table-striped">
+        <thead>
+            <caption style="float:right">
+            user Details</caption>
+            <tr>
+                <td>Id</td>
+                <td>UserName</td>
+                <td>password</td>
+                <td>Address</td>
+                <td>Phone</td>
+                <td>Action</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of user">
+                <td>{{user.id}}</td>
+                <td>{{user.username}}</td>
+                <td>{{user.password}}</td>
+                <td>{{user.address}}</td>
+                <td>{{user.phone}}</td>
+                <td>
+                    <button class="btn btn-primary" (click)="updateUser(user)">Update</button> |
+                    <button class="btn btn-danger" (click)="deleteUser(user)">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <button class="btn btn-success">Success</button>
+</div>
