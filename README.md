@@ -64,4 +64,20 @@
 #Angular
       1.CRUD operations using route(Add employee,update and delete)
       2.Connecting Spring restApi with Angular using CrossOrigin.
+      
+***********************Day-10(May-20th 2021)*************************
+
+#Microservices
+      Introduction-videos
+            Drawbacks of monolithic apllications
+            Building blocks of micro services
+            Architecture of microservices
+            Benefits of MS
+            
+***************************Day-11(May-21th 2021)************************
+
+#Angular Handson
+      Creating Game Component using setInterval,clearInterval with EventEmitter
+      component binding - parent and child component communication
+      
             
