@@ -15,6 +15,8 @@ Create a SPA which have 3 components  GameComponent, OddNumber and EvenNumber
    different Styles.
    
    
-   
+   #Angular Handson
+     * Creating Game Component using setInterval,clearInterval with EventEmitter 
+     * component binding - parent and child component communication
    
    
