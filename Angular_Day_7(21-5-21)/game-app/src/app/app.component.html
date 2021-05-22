@@ -1,0 +1,17 @@
+<h1>Game-App</h1>
+<div class="container">
+<app-game (incrementNumber)="incrementingEvent($event)">
+</app-game>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+  <app-even *ngFor="let even of evenArray"
+      [evenNumber]="even">
+
+  </app-even>
+
+  <app-odd *ngFor="let odd of oddArray" [oddNumber]="odd">
+
+  </app-odd>
+</div>
+</div>
