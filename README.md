@@ -87,6 +87,12 @@
       Congigured limitService with spring cloud config with github local repository
       created 3 services names currencyCoversionService,currencyExchangeService,limitsService.
       
+******************************Day-13(May-24th 2021)*****************************
+
+#Microservices
+      Udemy V2 from step 19-29
+      *Naming server with eureka,Load Balancer,Spring cloud API gateway with filters
+      *Circuit breaker-Resilience4j
       
       
             
